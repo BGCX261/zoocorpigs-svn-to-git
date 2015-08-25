@@ -1,0 +1,63 @@
+/* 
+    Document   : home_learnmore
+    Created on : 20/01/2011, 21:50:38
+    Author     : juliboy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+a.header_learnmore_botao {
+    background: url(../../images/home/header_learnmore.png) repeat-x;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    color: #404040;
+    text-decoration: none;
+    display: block;
+    height: 80px;
+    width: 350px;
+    /*margin-bottom: 10px;*/
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    behavior: url(border-radius.htc);
+    position: absolute;
+    z-index: 1000;
+
+}
+a:hover.header_learnmore_botao {
+    color: #C00;
+}
+
+.header_learnmore_botao_learnmore{
+    background: url(../../images/home/header_cross.png) no-repeat 10px 15px;
+    display: block;
+}
+
+#header_lernmore{
+    z-index: 101;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+}
+
+#header_lernmore_text{
+    position: absolute;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    margin-left: 70px;
+}
+#header_lernmore_text h1{
+    font-size: 16px;
+}
+#header_lernmore_text h2{
+    margin-top: -130px;
+    font-size: 22px;
+    margin-left: -5px;
+}

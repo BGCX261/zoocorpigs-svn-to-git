@@ -1,0 +1,24 @@
+/* 
+    Document   : gadgetfacebook
+    Created on : 24/01/2011, 22:32:41
+    Author     : minero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+a.facebook_button
+{
+    background: url(../../images/home/footer_facebook.png) no-repeat;
+    background-position: left;
+    height: 100px;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 4px;
+    display: block;
+}

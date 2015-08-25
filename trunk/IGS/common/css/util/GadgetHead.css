@@ -1,0 +1,103 @@
+/*
+    Document   : home
+    Created on : 17/01/2011, 20:55:39
+    Author     : juliboy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+p {
+ padding: 10px;
+}
+
+#wrapper {
+ margin: 0;
+ width: 100%;
+}
+
+#content {
+ float: right;
+ color: #333;
+ background: #000000;
+ height: 350px;
+ width: 100%;
+ display: inline;
+}
+*/
+
+* { padding: 0; margin: 0; }
+
+body{
+    overflow: hidden;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#header {
+ color: #333;
+ width: 100%;
+ float: left;
+ height: 150px;
+ top: 0;
+ position: absolute;
+ background: #6B6659;
+ background: #EEEEEE url("../../images/home/header_background.png") repeat-x;
+}
+
+#header_logo_fundo{
+    height:207px;
+    width: 350px;
+    top: 0;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 99;
+    background: url("../../images/home/header_logo_fundo.png") no-repeat;
+}
+
+a.header_botao {
+    background: url("../../images/home/header_background.png") no-repeat;
+    line-height: 84px;
+    font-weight: bold;
+    color: #404040;
+    text-decoration: none;
+    display: block;
+    height: 84px;
+    width: 150px;
+    z-index: 100;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 30px;
+    
+}
+a:hover.header_botao {
+    color: #C00;
+}
+
+.header_botao_home {
+    background: url(../../images/home/header_logo.png) no-repeat;
+    text-indent: 40px;
+    display: block;
+}
+
+#footer {
+ width: 100%;
+ height: 50px;
+ clear: both;
+ color: #333;
+ position:absolute;
+ bottom:0;
+ bottom:0;
+ background: #6B6659;
+}
+

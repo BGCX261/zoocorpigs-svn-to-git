@@ -1,0 +1,1 @@
+http://www.phpes.org/2009/02/adodb-conectando-banco-de-dados-em-php/

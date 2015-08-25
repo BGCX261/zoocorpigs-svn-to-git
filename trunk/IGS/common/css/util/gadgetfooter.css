@@ -1,0 +1,69 @@
+/*
+    Document   : home
+    Created on : 17/01/2011, 20:55:39
+    Author     : juliboy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+p {
+ padding: 10px;
+}
+
+#wrapper {
+ margin: 0;
+ width: 100%;
+}
+
+#content {
+ float: right;
+ color: #333;
+ background: #000000;
+ height: 350px;
+ width: 100%;
+ display: inline;
+}
+*/
+#gadget_footer {
+ color: #333;
+ width: 100%;
+ float: left;
+ height: 100px;
+ bottom: 0;
+ position: absolute;
+ background: #666666;
+ /*background: #EEEEEE url("../../images/home/footer_background.png") repeat-x; */
+}
+
+#footer_top {
+ color: #333;
+ width: 100%;
+ float: left;
+ height: 20px;
+ bottom: 100px;
+ position: absolute;
+ background: #373737;
+ /*background: #EEEEEE url("../../images/home/footer_background.png") repeat-x; */
+}
+
+#footer_igs {
+    background: url("../../images/home/footer_igs.png") no-repeat;
+    display: block;
+    height: 100px;
+    width: 200px;
+    margin-right: 50px;
+    float:right;
+    margin-top:30px;
+}
